@@ -11,5 +11,5 @@
 <pre>{{pizza |json}}</pre>
 <p>{{cost | double}}</p>
 <p>{{cost | double:2:true}}</p>
-<p *ngIf="(cost | double) > 1000">Show me!</p>
-<p>{{temperature |double|number:'1.2-2'}}</p>
+ <p *ngIf="(cost | double) > 1000">Show me!</p> <!--outside of interpolation -->
+<p>{{temperature |double|number:'1.2-2'}}</p> <!--Multiple pipes-->
