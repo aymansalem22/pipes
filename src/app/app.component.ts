@@ -11,6 +11,11 @@ export class AppComponent {
  cost=1000;
  temperature=23.3;
  temperature1=25.123456;
+pizza = {
+  toppings:['pepperoni','mushroom'],
+  size:'Large'
+};
+
 }
 
 
